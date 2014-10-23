@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12D700FB-0A80-433F-A8B8-C26386F83CB2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Day3_6</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AAEDA4D16B97EC9AF3A0F3F563E2C7F58DF5A732</key>
+		<string>https://github.com/okischuang/Xcode.git</string>
+		<key>F9A4C888A093E3408EBFAB6D83227EFBC2FD8F80</key>
+		<string>https://github.com/okischuang/FreeRADIUS-Perl-Dev.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Day3_6/Day3_6.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AAEDA4D16B97EC9AF3A0F3F563E2C7F58DF5A732</key>
+		<string>../../..</string>
+		<key>F9A4C888A093E3408EBFAB6D83227EFBC2FD8F80</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/okischuang/Xcode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AAEDA4D16B97EC9AF3A0F3F563E2C7F58DF5A732</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9A4C888A093E3408EBFAB6D83227EFBC2FD8F80</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AAEDA4D16B97EC9AF3A0F3F563E2C7F58DF5A732</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
