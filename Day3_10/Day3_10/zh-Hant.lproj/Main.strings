@@ -1,0 +1,21 @@
+
+/* Class = "IBUITextField"; placeholder = "Prompt"; ObjectID = "Avx-tF-xIZ"; */
+"Avx-tF-xIZ.placeholder" = "Prompt";
+
+/* Class = "IBUISegmentedControl"; BfR-Pu-hg7.segmentTitles[0] = "First"; ObjectID = "BfR-Pu-hg7"; */
+"BfR-Pu-hg7.segmentTitles[0]" = "壹";
+
+/* Class = "IBUISegmentedControl"; BfR-Pu-hg7.segmentTitles[1] = "Second"; ObjectID = "BfR-Pu-hg7"; */
+"BfR-Pu-hg7.segmentTitles[1]" = "貳";
+
+/* Class = "IBUISegmentedControl"; BfR-Pu-hg7.segmentTitles[2] = "Third"; ObjectID = "BfR-Pu-hg7"; */
+"BfR-Pu-hg7.segmentTitles[2]" = "參";
+
+/* Class = "IBUISegmentedControl"; BfR-Pu-hg7.segmentTitles[3] = "Fourth"; ObjectID = "BfR-Pu-hg7"; */
+"BfR-Pu-hg7.segmentTitles[3]" = "肆";
+
+/* Class = "IBUIButton"; normalTitle = "Reset"; ObjectID = "Fwo-ep-Y8Y"; */
+"Fwo-ep-Y8Y.normalTitle" = "Reset";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "reW-bD-Z76"; */
+"reW-bD-Z76.text" = "Label";
