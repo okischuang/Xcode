@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  Day4_1
+//  Day4_2
 //
 //  Created by Okis Chuang on 2014/10/24.
 //  Copyright (c) 2014年 KnightO. All rights reserved.
@@ -20,9 +20,6 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
-@property (strong, nonatomic) UINavigationController* navigationController;
 
-@property (strong, nonatomic) NSMutableArray* tableData;
--(void) loadData;
 @end
 

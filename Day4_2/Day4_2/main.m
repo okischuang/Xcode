@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Day4_1
+//  Day4_2
 //
 //  Created by Okis Chuang on 2014/10/24.
 //  Copyright (c) 2014年 KnightO. All rights reserved.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-#import "Beverage.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {

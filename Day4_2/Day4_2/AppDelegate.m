@@ -1,37 +1,24 @@
 //
 //  AppDelegate.m
-//  Day4_1
+//  Day4_2
 //
 //  Created by Okis Chuang on 2014/10/24.
 //  Copyright (c) 2014年 KnightO. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "MainTableViewController.h"
-#import "Beverage.h"
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
--(void)loadData {
-    NSFetchRequest* request = [[NSFetchRequest alloc]init];
-    NSEntityDescription* entityDescription = [NSEntityDescription entityForName:@"Beverage" inManagedObjectContext:self.managedObjectContext];
-    [request setEntity:entityDescription];
-    NSError* error = nil;
-    self.tableData = [self.managedObjectContext executeFetchRequest:request error:&error].mutableCopy;
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    MainTableViewController* mainTableViewController = [[MainTableViewController alloc]initWithNibName:@"MainTableViewController" bundle:nil];
-
-    mainTableViewController.title = @"Main Navigation";
-    self.navigationController = [[UINavigationController alloc] initWithRootViewController:mainTableViewController];
-    self.window.rootViewController = self.navigationController;
-    [self.window makeKeyAndVisible];
+    UINavigationController* navigationController = (UINavigationController*) self.window.rootViewController;
+    navigationController.topViewController.title = @"SingleNavi";
     return YES;
 }
 
@@ -66,7 +53,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "KNTO.Day4_1" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "KNTO.Day4_2" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
@@ -75,7 +62,7 @@
     if (_managedObjectModel != nil) {
         return _managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Day4_1" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Day4_2" withExtension:@"momd"];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }
@@ -89,7 +76,7 @@
     // Create the coordinator and store
     
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Day4_1.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Day4_2.sqlite"];
     NSError *error = nil;
     NSString *failureReason = @"There was an error creating or loading the application's saved data.";
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {

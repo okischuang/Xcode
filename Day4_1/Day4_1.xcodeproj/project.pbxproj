@@ -15,6 +15,15 @@
 		8006BF2819F9FA1B009F9516 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8006BF2719F9FA1B009F9516 /* Images.xcassets */; };
 		8006BF2B19F9FA1B009F9516 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8006BF2919F9FA1B009F9516 /* LaunchScreen.xib */; };
 		8006BF3719F9FA1B009F9516 /* Day4_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8006BF3619F9FA1B009F9516 /* Day4_1Tests.m */; };
+		8006BF4319F9FB47009F9516 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8006BF4119F9FB47009F9516 /* MainTableViewController.m */; };
+		8006BF4419F9FB47009F9516 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8006BF4219F9FB47009F9516 /* MainTableViewController.xib */; };
+		8006BFBC19FA2A41009F9516 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8006BFBA19FA2A41009F9516 /* AddViewController.m */; };
+		8006BFBD19FA2A41009F9516 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8006BFBB19FA2A41009F9516 /* AddViewController.xib */; };
+		8006BFC119FA2A4E009F9516 /* ModViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8006BFBF19FA2A4E009F9516 /* ModViewController.m */; };
+		8006BFC219FA2A4E009F9516 /* ModViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8006BFC019FA2A4E009F9516 /* ModViewController.xib */; };
+		8006BFC419FA331B009F9516 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006BFC319FA331B009F9516 /* CoreData.framework */; };
+		8006BFC619FA3442009F9516 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006BFC519FA3442009F9516 /* CoreFoundation.framework */; };
+		8006BFC919FA34CA009F9516 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8006BFC819FA34CA009F9516 /* Beverage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,19 @@
 		8006BF3019F9FA1B009F9516 /* Day4_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day4_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8006BF3519F9FA1B009F9516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8006BF3619F9FA1B009F9516 /* Day4_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day4_1Tests.m; sourceTree = "<group>"; };
+		8006BF4019F9FB47009F9516 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		8006BF4119F9FB47009F9516 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		8006BF4219F9FB47009F9516 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		8006BFB919FA2A41009F9516 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		8006BFBA19FA2A41009F9516 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		8006BFBB19FA2A41009F9516 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		8006BFBE19FA2A4E009F9516 /* ModViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModViewController.h; sourceTree = "<group>"; };
+		8006BFBF19FA2A4E009F9516 /* ModViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModViewController.m; sourceTree = "<group>"; };
+		8006BFC019FA2A4E009F9516 /* ModViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModViewController.xib; sourceTree = "<group>"; };
+		8006BFC319FA331B009F9516 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8006BFC519FA3442009F9516 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8006BFC719FA34CA009F9516 /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
+		8006BFC819FA34CA009F9516 /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8006BFC619FA3442009F9516 /* CoreFoundation.framework in Frameworks */,
+				8006BFC419FA331B009F9516 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +89,14 @@
 		8006BF0B19F9FA1B009F9516 = {
 			isa = PBXGroup;
 			children = (
+				8006BFC519FA3442009F9516 /* CoreFoundation.framework */,
+				8006BFC319FA331B009F9516 /* CoreData.framework */,
+				8006BFBE19FA2A4E009F9516 /* ModViewController.h */,
+				8006BFBF19FA2A4E009F9516 /* ModViewController.m */,
+				8006BFC019FA2A4E009F9516 /* ModViewController.xib */,
+				8006BFB919FA2A41009F9516 /* AddViewController.h */,
+				8006BFBA19FA2A41009F9516 /* AddViewController.m */,
+				8006BFBB19FA2A41009F9516 /* AddViewController.xib */,
 				8006BF1619F9FA1B009F9516 /* Day4_1 */,
 				8006BF3319F9FA1B009F9516 /* Day4_1Tests */,
 				8006BF1519F9FA1B009F9516 /* Products */,
@@ -91,6 +123,11 @@
 				8006BF2719F9FA1B009F9516 /* Images.xcassets */,
 				8006BF2919F9FA1B009F9516 /* LaunchScreen.xib */,
 				8006BF1E19F9FA1B009F9516 /* Day4_1.xcdatamodeld */,
+				8006BFC719FA34CA009F9516 /* Beverage.h */,
+				8006BFC819FA34CA009F9516 /* Beverage.m */,
+				8006BF4019F9FB47009F9516 /* MainTableViewController.h */,
+				8006BF4119F9FB47009F9516 /* MainTableViewController.m */,
+				8006BF4219F9FB47009F9516 /* MainTableViewController.xib */,
 				8006BF1719F9FA1B009F9516 /* Supporting Files */,
 			);
 			path = Day4_1;
@@ -202,9 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8006BF4419F9FB47009F9516 /* MainTableViewController.xib in Resources */,
+				8006BFC219FA2A4E009F9516 /* ModViewController.xib in Resources */,
 				8006BF2619F9FA1B009F9516 /* Main.storyboard in Resources */,
 				8006BF2B19F9FA1B009F9516 /* LaunchScreen.xib in Resources */,
 				8006BF2819F9FA1B009F9516 /* Images.xcassets in Resources */,
+				8006BFBD19FA2A41009F9516 /* AddViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8006BFBC19FA2A41009F9516 /* AddViewController.m in Sources */,
 				8006BF2019F9FA1B009F9516 /* Day4_1.xcdatamodeld in Sources */,
+				8006BFC119FA2A4E009F9516 /* ModViewController.m in Sources */,
 				8006BF1D19F9FA1B009F9516 /* AppDelegate.m in Sources */,
 				8006BF2319F9FA1B009F9516 /* ViewController.m in Sources */,
+				8006BF4319F9FB47009F9516 /* MainTableViewController.m in Sources */,
+				8006BFC919FA34CA009F9516 /* Beverage.m in Sources */,
 				8006BF1A19F9FA1B009F9516 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +460,7 @@
 				8006BF3C19F9FA1B009F9516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8006BF3D19F9FA1B009F9516 /* Build configuration list for PBXNativeTarget "Day4_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +469,7 @@
 				8006BF3F19F9FA1B009F9516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
